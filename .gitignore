@@ -1,0 +1,6 @@
+logs
+*.logs
+node_modules/
+.npm
+.DS_Store
+package-lock.json

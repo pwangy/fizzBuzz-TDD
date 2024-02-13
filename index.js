@@ -1,5 +1,5 @@
 const fizzBuzz = () => {
-    	for (let n = 1; n < 16; n++) {
+    for (let n = 1; n < 16; n++) {
 		// console.log(n)
 		if (n % 3 === 0) {
 			return 'Fizz'
@@ -8,5 +8,4 @@ const fizzBuzz = () => {
 		}
 	}
 }
-
 module.exports = fizzBuzz

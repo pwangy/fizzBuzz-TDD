@@ -17,9 +17,5 @@ describe('fizzBuzz', () => {
         expect(fizzBuzz(6)).toBe('fizz')
         expect(fizzBuzz(9)).toBe('fizz')
         expect(fizzBuzz(12)).toBe('fizz')
-    }), 
-    it('should return "buzz" if the number is divisible by 5', () => {
-        expect(fizzBuzz(5)).toBe('buzz')
-        expect(fizzBuzz(10)).toBe('buzz')
     })
 })

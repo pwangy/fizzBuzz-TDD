@@ -1,3 +1,3 @@
-const fizzBuzz = n => n
+const fizzBuzz = n => {}
 
 module.exports = fizzBuzz

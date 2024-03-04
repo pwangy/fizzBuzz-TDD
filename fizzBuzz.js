@@ -1,8 +1,3 @@
-const fizzBuzz = n => {
-	if (n % 3 === 0) {
-		return 'fizz'
-	} else {
-		return n
-}}
+const fizzBuzz = n => n
 
 module.exports = fizzBuzz

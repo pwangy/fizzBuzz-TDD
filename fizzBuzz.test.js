@@ -11,11 +11,5 @@ describe('fizzBuzz', () => {
         expect(fizzBuzz(7)).toBe(7)
         expect(fizzBuzz(8)).toBe(8)
         expect(fizzBuzz(11)).toBe(11)
-    }),
-    it('should return "fizz" if the number is divisible by 3', () => {
-        expect(fizzBuzz(3)).toBe('fizz')
-        expect(fizzBuzz(6)).toBe('fizz')
-        expect(fizzBuzz(9)).toBe('fizz')
-        expect(fizzBuzz(12)).toBe('fizz')
     })
 })

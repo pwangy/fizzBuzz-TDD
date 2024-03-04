@@ -1,12 +1,19 @@
-const fizzBuzz = n => {
-	if (n % 3 === 0 && n % 5 === 0) {
-		return 'fizzbuzz'
-	} else if (n % 5 === 0) {
-		return 'buzz'
-	} else if (n % 3 === 0) {
-		return 'fizz'
-	} else {
-		return n
-}}
+const fizzBuzz = (n) => {
+	// for (var n = 1; n <= 15; n++) {
+		if (n % 3 === 0 && n % 5 === 0) {
+			return 'fizzbuzz'
+			// console.log('fizzbuzz')
+		} else if (n % 5 === 0) {
+			return 'buzz'
+			// console.log('buzz')
+		} else if (n % 3 === 0) {
+			return 'fizz'
+			// console.log('fizz')
+		} else {
+			return n
+			// console.log(n)
+		}
+	}
+// }
 
 module.exports = fizzBuzz
